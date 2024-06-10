@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rubik']
+
+roboflow:
+  workspace: rubikcube
+  project: rubik-cube-nv9ap
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/rubikcube/rubik-cube-nv9ap/dataset/1
